@@ -16,6 +16,9 @@ class LemonadeStand:
 # LemonadeStand.purchase()
 
 class Cashier(LemonadeStand):
+    def __init__(self):
+        self.profit = 100
+    
     def total_order():
         print("Your total is $2.50")
 
@@ -30,3 +33,7 @@ Cashier.purchase()
 Cashier.total_order()
 
 # Polymorphism: The price method in the LemonadeStand class is overridden in the Cashier class to provide a different price for lemonade.
+
+Cashier = Cashier()
+print("Total profit = ", Cashier.profit)
+print("Total profit = ", Cashier.profit + 50)  # Adding $50 to the profit for demonstration
