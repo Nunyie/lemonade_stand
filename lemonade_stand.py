@@ -28,3 +28,5 @@ class Cashier(LemonadeStand):
 Cashier.price()
 Cashier.purchase()
 Cashier.total_order()
+
+# Polymorphism: The price method in the LemonadeStand class is overridden in the Cashier class to provide a different price for lemonade.
